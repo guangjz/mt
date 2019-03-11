@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Second suite" verbose="1" >
+
+
+    <test name = "CMC Industry Cloud PortalSite jdbc case" >
+        <classes>
+
+        </classes>
+    </test>
+
+    <test name = "CMC Industry Cloud PortalSite case" >
+        <classes>
+
+        </classes>
+    </test>
+
+    <test name = "CMC Government Cloud case" >
+        <classes>
+            <!--<class name="com.qa.Case.CMCGovernmentCloud.DMP.Device"/>-->
+        </classes>
+    </test>
+
+</suite>
