@@ -1,12 +1,16 @@
 package com.qa.Case.System;
 
 import net.sf.json.JSONObject;
-import org.apache.http.HttpResponse;
+import org.apache.http.ParseException;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 /**
  * Created by guangjiazheng on 2019/3/7.
@@ -19,6 +23,7 @@ public class FirstTeam {
     public static void FirstTeam_qa() throws Exception {
 
         DefaultHttpClient httpClient = new DefaultHttpClient();
+
         HttpPost httpPost = new HttpPost(FirstTeam.url);
 
         // 设置请求的header
@@ -50,7 +55,8 @@ public class FirstTeam {
         System.out.println(fja);
 
 
-
+        CloseableHttpResponse response = null;
+        try {
 
         StringEntity entity = new StringEntity(fja);
         entity.setContentEncoding("UTF-8");
@@ -58,13 +64,38 @@ public class FirstTeam {
         httpPost.setEntity(entity);
 
         // 执行请求
-        HttpResponse response = httpClient.execute(httpPost);
+        response = httpClient.execute(httpPost);
         String json2 = EntityUtils.toString(response.getEntity(), "utf-8");
         JSONObject jsonObject = JSONObject.fromObject(json2);
+            System.out.println(jsonObject);
+
+
+        } catch (ClientProtocolException e) {
+            System.err.println("Http协议出现问题");
+            e.printStackTrace();
+        } catch (ParseException e) {
+            System.err.println("解析错误");
+            e.printStackTrace();
+        } catch (IOException e) {
+            System.err.println("IO异常");
+            e.printStackTrace();
+        } finally {
+            // 释放连接
+
+            if (null != response) {
+                try {
+                    response.close();
+                    httpClient.close();
+                } catch (IOException e) {
+                    System.err.println("释放连接出错");
+                    e.printStackTrace();
+                }
+            }
+        }
 
         // 打印执行结果
 //        JSONObject he = Judge.Return_value(FirstTeam.url,jsonObject);
-        System.out.println(jsonObject);
+
     }
 
 }

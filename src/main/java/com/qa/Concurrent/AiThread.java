@@ -1,5 +1,7 @@
 package com.qa.Concurrent;
 
+import com.qa.Case.MingJing.FirstTeam;
+
 /**
  * Created by guangjiazheng on 2018/12/14.
  */
@@ -11,8 +13,7 @@ public class AiThread implements Runnable{
 
     public void run() {
         try {
-
-//            SendAuthCode.SendAuthCode_qa();
+            FirstTeam.FirstTeam_qa();
         } catch (Exception var2) {
 
             var2.printStackTrace();
