@@ -20,7 +20,7 @@ public class Desk {
     public static final String url = "http://112.35.22.232:8011/geec-order/api/v1/order/desk";
 
     @Test
-    public static  void Province_qa() throws Exception{
+    public static  void Desk_qa() throws Exception{
 
         DefaultHttpClient httpClient = new DefaultHttpClient();
         HttpPost httppost = new HttpPost(Desk.url);
@@ -64,6 +64,10 @@ public class Desk {
 
         // 打印执行结果
         System.out.println(jsonObject);
+        JSONObject result = (JSONObject) jsonObject.get("result");
+//        String orderId = (String)result.get("orderId");
+        System.out.println(result.get("orderId"));
     }
+
 
 }
