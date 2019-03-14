@@ -1,4 +1,4 @@
-package com.qa.Case.MingJing.Public;
+package com.qa.Case.Public;
 
 import net.sf.json.JSONObject;
 import org.apache.http.ParseException;

@@ -1,8 +1,8 @@
 package com.qa.Case.MingJing;
 
-import com.qa.Case.MingJing.Public.HostAddress;
-import com.qa.Case.MingJing.Public.HttpPost;
-import com.qa.Case.MingJing.Public.ToKey;
+import com.qa.Case.Public.HostAddress;
+import com.qa.Case.Public.HttpPost;
+import com.qa.Case.Public.ToKey;
 import com.qa.jdbc.DateUtil;
 import net.sf.json.JSONObject;
 import org.testng.annotations.Test;
@@ -17,16 +17,15 @@ public class FirstTeam {
     @Test
     public static void FirstTeam_qa() throws Exception {
 
-        // 设置请求的header
-//        httpPost.addHeader("Authorization", HostAddress.QA_Gateway_token);
         int nowtime_int = (int) (System.currentTimeMillis()/1000);
         String nowtime_datetime = DateUtil.timeStamp2Date(String.valueOf(nowtime_int),"yyyyMMddhhmmss");
-        System.out.println(nowtime_datetime);
+        int requestNo = (int)((Math.random()*9+1)*10000);
+
         JSONObject pub1 = new JSONObject();
         pub1.put("origSource","ZQKF");
-        pub1.put("homeSource","ZQKF");
-        pub1.put("requestNo","2018081015000702975");
-        pub1.put("requestNoTime","nowtime_datetime");
+        pub1.put("homeSource","ZQMJ");
+        pub1.put("requestNo",nowtime_datetime+requestNo);
+        pub1.put("requestNoTime",nowtime_datetime);
         pub1.put("bIPCode","MJ01001");
 
         JSONObject pub = new JSONObject();
@@ -35,7 +34,7 @@ public class FirstTeam {
         JSONObject inputPara = new JSONObject();
         inputPara.put("bIPCode","MirrorFirstTeamReq");
 
-        JSONObject fja = ToKey.result(pub.toString());
+        JSONObject fja = ToKey.MJ01001(pub.toString());
 
         System.out.println(fja);
 
