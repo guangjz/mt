@@ -18,9 +18,8 @@ public class Config {
 
 
     public static final String url = "http://112.35.22.232:8011/geec-order/api/v1/common/config";
-
     @Test
-    public static  void Device_qa() throws Exception{
+    public static void Device_qa() throws Exception {
 
         DefaultHttpClient httpClient = new DefaultHttpClient();
         HttpGet HttpGet = new HttpGet(Config.url);
@@ -46,4 +45,5 @@ public class Config {
         // 打印执行结果
         System.out.println(jsonObject);
     }
+
 }

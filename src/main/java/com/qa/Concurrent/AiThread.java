@@ -1,6 +1,6 @@
 package com.qa.Concurrent;
 
-import com.qa.Case.MingJing.FirstTeam;
+import com.qa.Case.CustomerService.Config;
 
 /**
  * Created by guangjiazheng on 2018/12/14.
@@ -13,7 +13,9 @@ public class AiThread implements Runnable{
 
     public void run() {
         try {
-            FirstTeam.FirstTeam_qa();
+
+            Config.Device_qa();
+
         } catch (Exception var2) {
 
             var2.printStackTrace();
