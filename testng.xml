@@ -17,6 +17,8 @@
     <test name = "CMC Government Cloud case" >
         <classes>
             <!--<class name="com.qa.Case.CMCGovernmentCloud.DMP.Device"/>-->
+            <!--test-->
+
         </classes>
     </test>
 
