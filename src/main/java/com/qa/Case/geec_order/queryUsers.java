@@ -1,4 +1,4 @@
-package com.qa.Case.EC_Console;
+package com.qa.Case.geec_order;
 
 import com.qa.Case.Public.HostAddress;
 import net.sf.json.JSONObject;
@@ -10,29 +10,28 @@ import org.apache.http.util.EntityUtils;
 import org.testng.annotations.Test;
 
 /**
- * Created by guangjiazheng on 2019/5/6.
+ * Created by guangjiazheng on 2019/5/15.
  */
-public class GetAnswerList {
+public class queryUsers {
 
-    public static final java.lang.String url = "/ec-console/wechat/answer/getAnswerList";
+    public static final java.lang.String url = "/geec-order/api/v1/common/sendGroup/queryUsers";
 
     @Test
-    public static void getAnswerList_qa() throws Exception{
+//    @RequestBody
+    public static void getSignList_qa() throws Exception{
 
         DefaultHttpClient httpClient = new DefaultHttpClient();
 
-        HttpPost post = new HttpPost(HostAddress.QA_ECconsole_ip+GetAnswerList.url);
-        post.addHeader("Content-Type:","application/json");
-        post.addHeader("token",HostAddress.QA_ECconsole_token);
+        HttpPost post = new HttpPost(HostAddress.QA_geecorder_ip+queryUsers.url);
+        post.addHeader("Content-Type:","application/json;charset=UTF-8");
+        post.addHeader("token",HostAddress.QA_geecorder_token);
 
-        java.lang.String pageNo = "pageNo=1";
-        java.lang.String pageSize = "pageSize=20";
-        java.lang.String status = "status=6";
-        java.lang.String date = pageNo+"&"+pageSize+"&"+status;
+        JSONObject jsonParam = new JSONObject();
+        jsonParam.put("groupId", "356");
 
-        StringEntity entity = new StringEntity(date, "utf-8");
+        StringEntity entity = new StringEntity(jsonParam.toString(), "UTF-8");
         entity.setContentEncoding("UTF-8");
-        entity.setContentType("X-WWW-FORM-URLENCODED");
+        entity.setContentType("application/json");
         post.setEntity(entity);
 
         // 执行请求
@@ -43,5 +42,4 @@ public class GetAnswerList {
         // 打印执行结果
         System.out.println(jsonObject);
     }
-
 }

@@ -21,7 +21,7 @@ public class getUserMenuList {
 
         DefaultHttpClient httpClient = new DefaultHttpClient();
 
-        HttpPost post = new HttpPost(HostAddress.QA_ECconsole_url+getUserMenuList.url);
+        HttpPost post = new HttpPost(HostAddress.QA_ECconsole_ip+getUserMenuList.url);
         post.addHeader("Content-Type:","application/json");
         post.addHeader("token",HostAddress.QA_ECconsole_token);
 
