@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b066625-5d3b-412c-b9a5-30684927e389" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/HttpClientUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/geec_order/queryUsers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/httpclient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qa/Case/EC_Console/getUserMenuList.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/Case/EC_Console/getUserMenuList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qa/Case/Public/HostAddress.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/Case/Public/HostAddress.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/Orderreply.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetAnswerList.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetAnswerList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetSignList.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetSignList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/getUserMenuList.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/getUserMenuList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HostAddress.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HostAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java" />
     </list>
     <ignored path="CMC_Government_Cloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetSignList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetSignList.java">
+      <file leaf-file-name="FirstTeam.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/FirstTeam.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <caret line="40" column="78" selection-start-line="19" selection-start-column="1" selection-end-line="40" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,72 +40,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="queryUsers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/geec_order/queryUsers.java">
+      <file leaf-file-name="ToKey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="61" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="httpclient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/httpclient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.107632">
-              <caret line="70" column="0" selection-start-line="67" selection-start-column="2" selection-end-line="68" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpClientUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/HttpClientUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#891#906#0" expanded="true" />
-                <element signature="e#2133#2149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getUserMenuList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/getUserMenuList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HostAddress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HostAddress.java">
+      <file leaf-file-name="Orderreply.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/Orderreply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49902153">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpPost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="155" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="155" />
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetAnswerList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetAnswerList.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="660" column="0" selection-start-line="660" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/Public/ToKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/ESOP/ESOP_AUTH_002.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/FirstTeam.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/CustomerService/Province.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/CustomerService/Desk.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/CustomerService/Config.java" />
@@ -174,6 +138,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/geec_order/queryUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/httpclient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/FirstTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/Orderreply.java" />
       </list>
     </option>
   </component>
@@ -347,6 +315,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMC_Government_Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMC_Government_Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMC_Government_Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMC_Government_Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MingJing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -358,7 +394,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../banma_srm_haikui" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
@@ -379,73 +415,7 @@
       <recent name="com.qa.Case.MingJing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.httpclient">
-    <configuration default="false" name="GetSignList.getSignList_qa (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qa.Case.EC_Console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CMC_Government_Cloud" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.qa.Case.EC_Console" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.Case.EC_Console.GetSignList" />
-      <option name="METHOD_NAME" value="getSignList_qa" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="GetSignList.getSignList_qa (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qa.Case.EC_Console.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CMC_Government_Cloud" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.qa.Case.EC_Console" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.Case.EC_Console.GetSignList" />
-      <option name="METHOD_NAME" value="getSignList_qa" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.Orderreply.FirstTeam_qa">
     <configuration default="false" name="queryUsers.getSignList_qa" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -479,26 +449,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="HttpClientUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qa.Case.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.qa.Case.HttpClientUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CMC_Government_Cloud" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="httpclient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -517,6 +467,105 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CMC_Government_Cloud" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Orderreply.FirstTeam_qa" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qa.Case.MingJing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CMC_Government_Cloud" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.qa.Case.MingJing" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.Case.MingJing.Orderreply" />
+      <option name="METHOD_NAME" value="FirstTeam_qa" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Orderreply.FirstTeam_qa (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qa.Case.MingJing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CMC_Government_Cloud" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.qa.Case.MingJing" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.Case.MingJing.Orderreply" />
+      <option name="METHOD_NAME" value="FirstTeam_qa" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Orderreply" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qa.Case.MingJing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CMC_Government_Cloud" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.qa.Case.MingJing" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.Case.MingJing.Orderreply" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -764,19 +813,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.GetSignList.getSignList_qa (1)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GetSignList.getSignList_qa (2)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.queryUsers.getSignList_qa" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HttpClientUtil" />
-      <item index="4" class="java.lang.String" itemvalue="Application.httpclient" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.queryUsers.getSignList_qa" />
+      <item index="1" class="java.lang.String" itemvalue="Application.httpclient" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Orderreply.FirstTeam_qa" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Orderreply.FirstTeam_qa (1)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Orderreply" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.httpclient" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.queryUsers.getSignList_qa" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HttpClientUtil" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GetSignList.getSignList_qa (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GetSignList.getSignList_qa (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Orderreply.FirstTeam_qa" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Orderreply" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Orderreply.FirstTeam_qa (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.httpclient" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.queryUsers.getSignList_qa" />
       </list>
     </recent_temporary>
   </component>
@@ -794,35 +843,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 11h 56m 30s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 35m 02s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 11h 57m 52s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 35m 51s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 11h 58m 39s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 36m 17s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 12h 01m 23s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 38m 12s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 12h 01m 34s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 41m 00s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 12h 02m 16s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 42m 54s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 14h 18m 14s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 46m 20s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 14h 25m 30s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 48m 05s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 14h 33m 11s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 49m 30s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="queryUsers_getSignList_qa - 2019.05.15 at 14h 39m 56s.xml">
-      <configuration name="queryUsers.getSignList_qa" configurationId="TestNG" />
+    <history-entry file="Orderreply_FirstTeam_qa - 2019.05.16 at 15h 53m 08s.xml">
+      <configuration name="Orderreply.FirstTeam_qa" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -836,7 +885,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24626866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -897,20 +946,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/System/GetUserMenuList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/System/FirstTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1114,20 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18987341">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24412297">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Concurrent/AiThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1166,28 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/ProcessLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14677104">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14677104">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/FirstTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64579254">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/CustomerService/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2935421">
@@ -1217,24 +1216,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/GetAnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2214533">
           <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/EC_Console/getUserMenuList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3252595">
           <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding />
         </state>
@@ -1242,19 +1241,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6574395">
           <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#891#906#0" expanded="true" />
-            <element signature="e#2133#2149#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#891#906#0" expanded="false" />
+            <element signature="e#2133#2149#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HostAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4152249">
           <caret line="16" column="155" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="155" />
           <folding />
         </state>
@@ -1265,15 +1264,75 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="61" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/httpclient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.107632">
+        <state vertical-scroll-proportion="0.0">
           <caret line="70" column="0" selection-start-line="67" selection-start-column="2" selection-end-line="68" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/ProcessLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12975779">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12975779">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="660" column="0" selection-start-line="660" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/ToKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/FirstTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="78" selection-start-line="19" selection-start-column="1" selection-end-line="40" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/Public/HttpPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/Case/MingJing/Orderreply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49902153">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

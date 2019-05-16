@@ -26,7 +26,7 @@ public class HttpPost {
 
             StringEntity entity = new StringEntity(date);
             entity.setContentEncoding("UTF-8");
-            entity.setContentType("application/x-www-form-urlencoded");
+            entity.setContentType("application/json");
             httpPost.setEntity(entity);
 
             // 执行请求
