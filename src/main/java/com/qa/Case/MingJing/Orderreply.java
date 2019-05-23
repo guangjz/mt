@@ -34,7 +34,6 @@ public class Orderreply {
         JSONObject inputPara = new JSONObject();
 //        inputPara.put("extFormCode","20180904ZQKF010001");
         inputPara.put("extFormCode", "20190516ZQKF010007");
-
         inputPara.put("formCode", "IT-Complain-201809-0011");
         inputPara.put("handler", "lenson");
         inputPara.put("handlerTel", "13810571872");
@@ -47,13 +46,11 @@ public class Orderreply {
 //        inputPara.put("attachments", "[{\"attachID\":\"95001\",\"attachName\":\"编码\",\"attachType\":\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;xlsx\",\"attachUrl\":\"http://112.35.3.9:8081/Attachment?attachID=95001\"}]");
         ArrayList fg = new ArrayList();
 
-
-
         JSONObject attachments = new JSONObject();
         attachments.put("attachID", "95001");
         attachments.put("attachName", "编码");
         attachments.put("attachType", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;xlsx");
-        attachments.put("attachUrl", "http://112.35.3.9:8081/Attachment?attachID=95001");
+        attachments.put("attachUrl", "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg\n");
         fg.add(0,attachments);
         inputPara.put("attachments",fg.toString());
 
