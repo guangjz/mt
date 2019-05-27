@@ -21,11 +21,13 @@ public class newWorkSheet {
 
         org.apache.http.client.methods.HttpPost post = new org.apache.http.client.methods.HttpPost(HostAddress.QA_geecorder_ip+newWorkSheet.url);
         post.addHeader("Content-Type:","application/json;charset=UTF-8");
-        post.addHeader("token",HostAddress.QA_geecorder_token);
+//        post.addHeader("token",HostAddress.QA_geecorder_token);
 
         JSONObject jsonParam = new JSONObject();
         jsonParam.put("serialNo","20190402ZQKF0221566");
-        jsonParam.put("attachRef","");
+        jsonParam.put("attachRef","123");
+        jsonParam.put("opDetail","123");
+
 
         System.out.println(jsonParam);
 
@@ -38,10 +40,10 @@ public class newWorkSheet {
         // 执行请求
         HttpResponse response = httpClient.execute(post);
         String json2 = EntityUtils.toString(response.getEntity(), "utf-8");
-        JSONObject jsonObject = JSONObject.fromObject(json2);
+//        JSONObject jsonObject = JSONObject.fromObject(json2);
 
         // 打印执行结果
-        System.out.println(jsonObject);
+        System.out.println(json2);
     }
 
 }

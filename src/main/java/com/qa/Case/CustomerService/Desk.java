@@ -64,9 +64,9 @@ public class Desk {
 
         // 打印执行结果
         System.out.println(jsonObject);
-        JSONObject result = (JSONObject) jsonObject.get("result");
+//        JSONObject result = (JSONObject) jsonObject.get("result");
 //        String orderId = (String)result.get("orderId");
-        System.out.println(result.get("orderId"));
+//        System.out.println(result.get("orderId"));
     }
 
 
