@@ -23,7 +23,11 @@ public class newWorkSheet {
         DefaultHttpClient httpClient = new DefaultHttpClient();
 
         HttpPost post = new HttpPost(HostAddress.QA_geecorder_ip+newWorkSheet.url);
+//        stringContent.Headers.ContentType = new MediaTypeWithQualityHeaderValue("application/json");
+
         post.addHeader("Content-Type:","application/json;charset=UTF-8");
+//        post.addHeader("Content-Type:","text/plain;charset=UTF-8");
+
         post.addHeader("token",HostAddress.QA_geecorder_token);
 
 
@@ -32,11 +36,14 @@ public class newWorkSheet {
         jsonParam.put("serialNo","20190402ZQKF0221585");
         jsonParam.put("attachRef","123");
         jsonParam.put("opDetail","123");
+        StringEntity body = new StringEntity(jsonParam.toString(1));
+        post.setEntity(body);
+
 
         System.out.println(jsonParam);
 
 
-        StringEntity entity = new StringEntity(jsonParam.toString(), "UTF-8");
+        StringEntity entity = new StringEntity(jsonParam.toString());
         entity.setContentEncoding("UTF-8");
         entity.setContentType("application/json");
         post.setEntity(entity);
@@ -44,9 +51,10 @@ public class newWorkSheet {
         // 执行请求
         HttpResponse response = httpClient.execute(post);
         String json2 = EntityUtils.toString(response.getEntity(), "utf-8");
-//        JSONObject jsonObject = JSONObject.fromObject(json2);
+        JSONObject jsonObject = JSONObject.fromObject(json2);
 
         // 打印执行结果
         System.out.println(json2);
+//        System.out.println(jsonObject);
     }
 }
