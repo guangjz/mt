@@ -20,8 +20,8 @@ public class newWorkSheet {
         DefaultHttpClient httpClient = new DefaultHttpClient();
 
         org.apache.http.client.methods.HttpPost post = new org.apache.http.client.methods.HttpPost(HostAddress.QA_geecorder_ip+newWorkSheet.url);
-        post.addHeader("Content-Type:","application/json;charset=UTF-8");
-//        post.addHeader("token",HostAddress.QA_geecorder_token);
+        post.addHeader("Content-Type:","application/json;charset=utf-8");
+        post.addHeader("token",HostAddress.QA_geecorder_token);
 
         JSONObject jsonParam = new JSONObject();
         jsonParam.put("serialNo","20190402ZQKF0221566");

@@ -30,8 +30,8 @@ public class newWorkSheet {
 
         JSONObject jsonParam = new JSONObject();
         jsonParam.put("serialNo","20190402ZQKF0221585");
-        jsonParam.put("attachRef","");
-        jsonParam.put("opDetail","");
+        jsonParam.put("attachRef","123");
+        jsonParam.put("opDetail","123");
 
         System.out.println(jsonParam);
 
