@@ -1,6 +1,7 @@
 package com.qa.Case.geec_order;
 
 import com.qa.Case.Public.HostAddress;
+import com.qa.Case.Public.StaxonUtils;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 import org.apache.http.HttpEntity;
@@ -39,7 +40,15 @@ public class test {
         JSONObject object = new JSONObject();
         object.put("serialNo","20190402ZQKF0221585");
         object.put("attachRef","123");
-        object.put("opDetail","123");
+        JSONObject opDetail = new JSONObject();
+        JSONObject fieldInfo = new JSONObject();
+        fieldInfo.put("fieldChName","");
+        fieldInfo.put("fieldEnName","");
+        fieldInfo.put("fieldContent","");
+        opDetail.put("fieldInfo",fieldInfo.toString());
+        String xml = StaxonUtils.json2xml(opDetail.toString());
+        object.put("opDetail",xml);
+        System.out.println(xml);
         System.out.println(object);
         StringEntity body = new StringEntity(object.toString(1));
         // 创建参数队列
