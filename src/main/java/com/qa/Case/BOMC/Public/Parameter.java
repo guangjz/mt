@@ -13,9 +13,9 @@ public class Parameter {
         JSONObject opDetail = new JSONObject();
         JSONObject fieldInfo = new JSONObject();
 
-        fieldInfo.put("fieldChName","");
-        fieldInfo.put("fieldEnName","");
-        fieldInfo.put("fieldContent","");
+        fieldInfo.put("fieldChName","工单类型");
+        fieldInfo.put("fieldEnName","type");
+        fieldInfo.put("fieldContent","查询报错原因");
 
         opDetail.put("fieldInfo",fieldInfo.toString());
 
@@ -28,10 +28,9 @@ public class Parameter {
     @Test
     public static JSONObject attachRef () {
 
-
         JSONObject attachInfo = new JSONObject();
-        attachInfo.put("attachName","");
-        attachInfo.put("attachURL","");
+        attachInfo.put("attachName","face.jpg");
+        attachInfo.put("attachURL","http://10.1.234.16:8025/ec-console/images/face.jpg");
         attachInfo.put("attachLength","");
         JSONObject attachRef = new JSONObject();
         attachRef.put("attachInfo",attachInfo.toString());

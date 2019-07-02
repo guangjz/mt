@@ -42,7 +42,8 @@ public class newWorkSheet {
         object.put("serialNo","20190402ZQKF0221585");
 
         String attachRef = StaxonUtils.json2xml(Parameter.attachRef().toString());
-        object.put("attachRef",attachRef);
+        object.put("attachRef", attachRef);
+
         System.out.println(attachRef);
 
         String opDetail = StaxonUtils.json2xml(Parameter.opDetail().toString());

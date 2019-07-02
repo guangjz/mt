@@ -11,7 +11,7 @@ public class HostAddress {
 
 
     public static final String QA_ECconsole_ip = "http://10.1.234.16:8025";
-    public static final String QA_ECconsole_token = "12dc438473d421add19236a9b0023222";
+    public static final String QA_ECconsole_token = "f276eecd95b4c4efb63dcce5bdd1eadb";
 
     public static final String QA_geecorder_ip = "http://10.1.234.16:8018";
     public static final String QA_geecorder_token = "ZmVuZ3hpbmdjaGVuZDZkYjk4ZDE3ZGQ2N2ZlNjQxMjU0NmY2ZDdlYzAzMmNlNjkzMGY2OTE3ZDM3NTk1YTFiZDI3OWM5MzBkNzUwMw==";

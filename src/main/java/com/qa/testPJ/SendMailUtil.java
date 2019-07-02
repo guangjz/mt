@@ -31,7 +31,7 @@ public class SendMailUtil {
             // 设置发件人邮箱地址
             message.setFrom(new InternetAddress("1056156088@qq.com"));
             // 设置收件人邮箱地址
-            message.setRecipients(Message.RecipientType.TO, new InternetAddress[]{new InternetAddress("guangjz@asiainfo.com"),new InternetAddress("fengyy@asiainfo.com")});
+            message.setRecipients(Message.RecipientType.TO, new InternetAddress[]{new InternetAddress("tengjuan@asiainfo.com"),new InternetAddress("fengyy@asiainfo.com")});
             //message.setRecipient(Message.RecipientType.TO, new InternetAddress("xxx@qq.com"));//一个收件人
             // 设置邮件标题
             message.setSubject("xmqtest");
