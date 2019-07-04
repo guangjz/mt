@@ -1,8 +1,6 @@
 package com.qa.Case.BOMC;
 
-import com.qa.Case.BOMC.Public.Parameter;
 import com.qa.Case.Public.HostAddress;
-import com.qa.Case.Public.StaxonUtils;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 import org.apache.http.HttpEntity;
@@ -39,16 +37,30 @@ public class newWorkSheet {
 //        String json = gson.toJson(new G("A0001"));
         JSONObject object = new JSONObject();
 
-        object.put("serialNo","20190402ZQKF0221585");
+        object.put("serialNo","66004");
+        object.put("opPerson","广家政");
+        object.put("opTime","2019-06-17 14:58:01");
+        object.put("sheetType","101");
+        object.put("callTime","2019-06-17 14:58:01");
+        object.put("serSupplier","JT_BOMC");
+        object.put("serCaller","JT_BBOSS");
+        object.put("serviceType","999");
+        object.put("opCorp","亚信科技");
+        object.put("callerPwd","");
+        object.put("opContact","15694116666");
+        object.put("opDepart","BOMC");
 
-        String attachRef = StaxonUtils.json2xml(Parameter.attachRef().toString());
-        object.put("attachRef", attachRef);
 
-        System.out.println(attachRef);
+//        String attachRef = StaxonUtils.json2xml(Parameter.attachRef().toString());
+        object.put("attachRef", "<attachRef></attachRef>");
 
-        String opDetail = StaxonUtils.json2xml(Parameter.opDetail().toString());
-        object.put("opDetail",opDetail);
-        System.out.println(opDetail);
+//        System.out.println(attachRef);
+
+//        String opDetail = StaxonUtils.json2xml(Parameter.opDetail().toString());
+        object.put("opDetail","<opDetail><fieldInfo><fieldChName>工单来源</fieldChName><fieldEnName>origin</fieldEnName><fieldContent>山东院</fieldContent></fieldInfo><fieldInfo><fieldChName>工单类型</fieldChName><fieldEnName>type</fieldEnName><fieldContent>查询报文信息</fieldContent></fieldInfo><fieldInfo><fieldChName>登记人</fieldChName><fieldEnName>register</fieldEnName><fieldContent>系统管理员</fieldContent></fieldInfo><fieldInfo><fieldChName>登记时间</fieldChName><fieldEnName>regtime</fieldEnName><fieldContent>2019-06-17 10:56:28</fieldContent></fieldInfo><fieldInfo><fieldChName>所属业务</fieldChName><fieldEnName>business</fieldEnName><fieldContent>PushEmail</fieldContent></fieldInfo><fieldInfo><fieldChName>期望解决时间</fieldChName><fieldEnName>hopetime</fieldEnName><fieldContent>2019-06-17 10:56:32</fieldContent></fieldInfo><fieldInfo><fieldChName>最晚回复时间</fieldChName><fieldEnName>limitedtime</fieldEnName><fieldContent>2019-06-22 10:56:34</fieldContent></fieldInfo><fieldInfo><fieldChName>工单标题</fieldChName><fieldEnName>title</fieldEnName><fieldContent>阿广的测试数据</fieldContent></fieldInfo><fieldInfo><fieldChName>描述</fieldChName><fieldEnName>desc</fieldEnName><fieldContent>123</fieldContent></fieldInfo><fieldInfo><fieldChName>登记人联系电话</fieldChName><fieldEnName>phonenumber</fieldEnName><fieldContent>15694119662</fieldContent></fieldInfo><fieldInfo><fieldChName>客户信息</fieldChName><fieldEnName>customer_info</fieldEnName><fieldContent>亚新科技（中国）有限公司</fieldContent></fieldInfo><fieldInfo><fieldChName>关键信息</fieldChName><fieldEnName>key_info</fieldEnName><fieldContent>123</fieldContent></fieldInfo><fieldInfo><fieldChName>是否省公司处理</fieldChName><fieldEnName>ispProvice</fieldEnName><fieldContent></fieldContent></fieldInfo><fieldInfo><fieldChName>审批人</fieldChName><fieldEnName>appover</fieldEnName><fieldContent></fieldContent></fieldInfo><fieldInfo><fieldChName>审批意见</fieldChName><fieldEnName>appover_opinion</fieldEnName><fieldContent></fieldContent></fieldInfo><fieldInfo><fieldChName>BOMC侧工单ID</fieldChName><fieldEnName>taskoid</fieldEnName><fieldContent>618001</fieldContent></fieldInfo></opDetail>");
+
+//        object.put("opDetail",opDetail);
+//        System.out.println(opDetail);
         System.out.println(object);
         StringEntity body = new StringEntity(object.toString(1));
         // 创建参数队列
